@@ -1,0 +1,9 @@
+# Description of files in this folder
+
+breakdown_mean.txt: Size of the final stabilized giant connected component after initial damage. Damage levels vary from 0.00 to 0.99.
+
+breakdown_sd.txt: Standard deviation of result for each network configuration, for the average over multiple repetitions.
+
+Node.java: Class to represent the nodes of the network, to be used during the percolation breakdown.
+
+Optimization.java: Contains the main() method. Generates networks with properties based on user input, perform interconnection, network breakdown then output results in breakdown_mean.txt and breakdown_sd.txt.
